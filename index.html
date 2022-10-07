@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        text-align: center;
+        background-color: green;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 100%;
+      }
+      #bjh {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-shadow: 1px 1px 0px red;
+        color: white;
+      }
+      #bj {
+        width: 100px;
+        padding: auto;
+        margin-top: 40px;
+      }
+      #tb {
+        width: 90px;
+        margin-bottom: 5px;
+      }
+      #message-el {
+        font-style: italic;
+        font-weight: 500;
+        padding-top: 30px;
+      }
+      h3 {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        text-shadow: 1px 0px 1px goldenrod;
+        padding: 4px;
+      }
+      p {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+      }
+      #btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #btn-i {
+        color: white;
+        background-color: red;
+        padding: 5px 9px;
+        margin-bottom: 4px;
+        margin-top: 10px;
+      }
+      #btn-ii {
+        color: white;
+        background-color: red;
+        padding: 5px 16px;
+        margin-bottom: 4px;
+        margin-top: 10px;
+      }
+      #btn-i:hover {
+        color: whitesmoke;
+        background-color: black;
+      }
+      #btn-ii:hover {
+        color: whitesmoke;
+        background-color: black;
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="blackspace">
+      <h1 id="bjh">BLACKJACK</h1>
+      <img id="bj" src="png5.png" alt="" />
+      <h3 id="message-el">Start Game to play a round?</h3>
+      <h3 id="card-el">cards:</h3>
+      <h3 id="sum-el">sum:</h3>
+
+      <div id="btn">
+        <button id="btn-i" onclick="startgame()">START GAME</button>
+        <button id="btn-ii" onclick="newcard()">NEW CARD</button>
+      </div>
+      <p id="player-el"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
