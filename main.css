@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(116, 232, 116); 
+}
+.blackjack {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 7rem;
+    text-shadow: 1px 2px 2px white;
+}
+h2 {
+    font-size: 3.6rem;
+}
+p {
+    font-size: 2.8rem;
+    border: 1px solid black;
+    padding: 3rem;
+}
+.update {
+    border: none;
+}
+.card {
+    text-align: start;
+}
+.sum,
+.card,
+.update {
+    font-size: 3rem;
+    font-weight: 800;
+}
+.message {
+    color: rgb(56, 37, 37);    
+    text-shadow: 1px 1px 3px white;
+}
+
+button {
+    padding: 3rem 5rem;
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+button:hover,
+button:focus {
+    padding: 3rem 5rem;
+    color: white;
+    background-color: black;
+    border-radius: 14px;
+}
+.btn {
+    margin-top: 6rem;
+}
+
+@media (min-width: 650px) {
+    h1 {
+      font-size: 5rem;
+    }
+    h2 {
+      font-size: 2.8rem;
+    }
+    p {
+      font-size: 2.5rem;
+    }
+    .blackjack {
+      max-width: 690px;
+      max-height: 680px;
+    }
+    .btn {
+      margin: 0;
+    }
+    button {
+      padding: 2rem 4rem;
+      font-size: 2rem;
+    }
+}
+  
