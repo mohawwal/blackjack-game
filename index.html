@@ -2,22 +2,22 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="/main.css" />
-    <title>BLACKJACK GAME</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackJack Game</title>
   </head>
   <body>
-    <div class="blackjack">
-      <h1>BLACKJACK</h1>
-      <h2 class="message">Start Game to play a round</h2>
-      <h2>cards</h2>
-      <p class="card"></p>
-      <h2>sum</h2>
-      <p class="sum"></p>
-      <P class="update"></P>
-      <div class="btn">
-        <button class="start-game" onclick="startgame()">START GAME</button>
-        <button class="new-card" onclick="newcard()">NEW CARD</button>
+    <div class="container">
+      <h2>Black-Jack Game</h2>
+
+      <p class="pickCardMsg"></p>
+      <p class="cardList">________</p>
+      <p class="cardUpdate"></p>
+      <div>
+        <button class="drawCard" onclick="newCard()">Play Your Cards</button>
+        <button class="reStart">Lets Play Again</button>
       </div>
     </div>
-    <script src="main.js"></script>
   </body>
+  <script src="/main.js"></script>
 </html>
